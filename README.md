@@ -6,7 +6,7 @@ The point of this is to use on various free Docker hosting sites that require bu
 This repo merely downloads the release artifact and then deploys it.
 
 How to use this repo: 
-1. Go to a Docker hosting site (we'll be using [[http://render.com]] as an example)
+1. Go to a Docker hosting site (we'll be using http://render.com as an example)
 2. Make a GitHub account
 3. **FORK** this repo (if you don't do this, you may ban my repo)
 4. Set the upstream to the forked repo
