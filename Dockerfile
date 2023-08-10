@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y unzip curl ca-c
 
 WORKDIR /opt/omnisette-server/
 
-RUN curl -fsSLo omnisette-server https://github.com/SideStore/omnisette-server/releases/download/0.2.0/omnisette-server-linux-x86_64
+RUN bash -c "curl -fsSLo omnisette-server https://github.com/SideStore/omnisette-server/releases/download/0.2.0/omnisette-server-linux-$(uname -m)"
 
 COPY docker-entrypoint.sh ./
 
